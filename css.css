@@ -1,0 +1,152 @@
+body, html {
+    height: 100%;
+    top: 0%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+    height: 7%;
+    top: 0;
+    margin: 0;
+    position: absolute;
+    width: 87%;
+    right: 0;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+}
+.studentForm {
+    width: 45%;
+}
+.studentForm label {
+    margin: 30px;
+}
+.studentForm h1 {
+    margin-left: 25px;
+}
+.studentForm input[type=text] {
+    width: 90%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); */
+}
+.studentForm input[type=submit] {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 25px 5% 0px 5%;
+
+    display: inline-block;
+    border: 1px solid #ffca28;
+    background-color: #ffca28;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); */
+}
+.studentForm input[type=submit]:hover {
+    background-color: #fcc314;
+}
+.studentForm input[type=button] {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 25px 5% 0px 12.5%;
+
+    display: inline-block;
+    border: 1px solid #cccccc;
+    background-color: #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.studentForm input[type=button]:hover {
+    background-color: #bfbfbf;
+}
+
+.menuBar {
+    display: block;
+    background-color: #ffca28;
+    width: 13%;
+    height: 100%;
+    float: left;
+    position: fixed;
+}
+.menuBar h1 {
+    font-size: 40px;
+    margin: 10px 0px;
+    padding: 0px 15px;
+}
+.menuBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.menuBar li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.menuBar li a:hover {
+    background-color: #fcc314;
+}
+.menuBar li.selectedList a {
+    background-color: #cc9900;
+    color: black;
+}
+.pageContent {
+    background-color: #FCFCFC;
+    display: block;
+    width: 87%;
+    height: 93%;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    overflow: scroll;
+}
+.pageContent table {
+    width: 60%;
+    border-collapse: collapse;
+
+    position: fixed;
+    margin: 5px 30px;
+}
+.pageContent th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+    text-align: left;
+}
+.pageContent tr:hover {background-color: #f5f5f5;}
+
+.pageContent select{
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 20px 30px;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+ }

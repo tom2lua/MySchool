@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    top: 0%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main {
+    background-image: url("Image/Login-background.jpg");
+
+    height: 93%;
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    height: 7%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    font-size: 43px;
+}
+.loginForm {
+    width: 30%;
+    height: 45%;
+
+    top: 27.5%;
+    left: 35%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    display: block;
+    background-color: #f2f2f2;
+    color: black;
+}
+.loginForm h2 {
+    text-align: center;
+}
+.loginForm label {
+    margin-left: 20px;
+}
+input[type=text], input[type = password] {
+    width: 92%;
+    padding: 12px 10px;
+    margin: 8px 20px;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=submit] {
+    width: 92%;
+    padding: 12px 10px;
+    margin: 25px 20px;
+
+    display: inline-block;
+    border: 1px solid #ffca28;
+    background-color: #ffca28;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=submit]:hover {
+    background-color: #fcc314;
+}
